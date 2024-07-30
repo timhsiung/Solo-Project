@@ -1,0 +1,72 @@
+$container-color: #ecececeb;
+$main-background-color: #7e9eff;
+$button-color: darken($main-background-color, 10%);
+$primary-font-color: #393939;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu Light', 'Century Gothic', sans-serif;
+    margin: 5px;
+    padding: 0;
+    color: $primary-font-color;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+h3 {
+    background-color: $container-color;
+}
+
+.job-container {
+    padding: 10px;
+    width: 60%;
+    height: 500px;
+    margin: 5px 5px 13px 10px;
+    border-radius: 1em;
+    float: left;
+    font-size: .8em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    background-color: $main-background-color;
+    color: black;
+}
+
+.jobBox {
+    padding: 10px;
+    width: 50%;
+    margin: 5px 5px 13px 10px;
+    border-radius: 1em;
+    float: left;
+    font-size: .8em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+    color: black;
+}
+
+.categories-container {
+    display: grid;
+    background-color: $container-color;
+    padding: 10px;
+}
+
+.button-container {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 5px 13px 10px;
+    border-radius: .5em;
+    // border: .1em dashed blue;
+    font-size: .8em;
+    background-color: #fff;
+    color: black;
+}
+
+.resButton {
+    background-color: $button-color;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+
+.deleteButton {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    padding: 10px;
+}
